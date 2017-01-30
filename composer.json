@@ -1,0 +1,23 @@
+{
+    "name": "onemustcode/hydrator",
+    "description": "Hydrator to map or extract an extract object",
+    "keywords": ["hydrator", "map", "object", "array"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Jeffrey Buitenhuis",
+            "email": "jeffrey@onemustcode.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "symfony/serializer": "^3.2",
+        "symfony/property-access": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "OneMustCode\\Hydrator\\": "src/"
+        }
+    }
+}
