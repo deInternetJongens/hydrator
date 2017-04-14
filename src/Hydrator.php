@@ -19,7 +19,6 @@ class Hydrator implements HydratorInterface
     public function __construct()
     {
         $objectNormalizer = new ObjectNormalizer();
-        $objectNormalizer->setCircularReferenceLimit(100);
         $this->normalizers[] = $objectNormalizer;
     }
 
